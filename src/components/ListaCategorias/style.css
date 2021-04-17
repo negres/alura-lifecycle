@@ -1,0 +1,13 @@
+.list-categories {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.list-categories li {
+  background: rgb(121, 218, 218);
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 5px 10px;
+}

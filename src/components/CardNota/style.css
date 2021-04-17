@@ -1,0 +1,38 @@
+.card-nota {
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+  color: rgb(24, 24, 24);
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 16px;
+}
+
+.card-nota_cabecalho {
+  font-size: 1.1em;
+}
+
+.card-nota_titulo {
+  font-size: 1.2em;
+  word-break: break-all;
+}
+
+.card-nota_texto-div {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-nota_texto {
+  font-size: 1em;
+  word-break: keep-all;
+  width: 90%;
+}
+
+.delete-icon {
+  fill: red;
+  cursor: pointer;
+}

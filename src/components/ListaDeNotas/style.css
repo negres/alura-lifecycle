@@ -1,0 +1,7 @@
+.lista-notas {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0 auto;
+  width: 70%;
+}

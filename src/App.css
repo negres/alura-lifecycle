@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
